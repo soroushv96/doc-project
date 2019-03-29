@@ -166,7 +166,7 @@ h2{
     background-color: #082154;
     padding: 5px 0;
     margin: 3rem auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+/*     box-shadow: 0 5px 10px rgba(0,0,0,0.15); */
     width: 14rem;
 }
 .ttt{
@@ -201,4 +201,71 @@ h2{
   }
 a:hover{
          text-decoration: unset !important;
+}
+.info{
+    direction: rtl;
+    text-align: right;
+    margin-top:5rem;
+}
+
+.right h3{
+    font-size: 2.3rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+.right p{
+    margin-right: 2rem;
+    color: gray;
+    font-size: 1.31rem;
+}
+.hhr{
+    margin-top:5rem;
+}
+.ico span{
+    display: inline-block;
+    padding: 1rem 1rem;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    background-color: #082154;
+    margin-right: 2rem;
+}
+.ico span i{
+    color: white;
+    font-size: 1.5rem;
+}
+.left{
+    background: white;
+}
+iframe{
+    width: 85%;
+    height: 33rem;
+    margin-top: 8rem;
+    
+}
+.container{
+    text-align: center;
+}
+footer{
+    background: url("m2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    direction: rtl;
+    text-align: right;
+    color: rgb(143, 143, 143);
+}
+footer p{
+    max-width: 60rem;
+    margin-right:5rem; 
+}
+footer .row p{
+    width: 25rem;
+    margin-left:3rem;
+    margin-right: 6.5rem;
+}
+.thh{
+    font-size: 2rem;
+    margin: 5rem 5rem 3rem ;
+    color: white;
 }
